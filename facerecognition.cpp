@@ -1,11 +1,4 @@
-// demo1.cpp : Defines the entry point for the application.
-//
-
-#include "demo1.h"
-
-
-
-
+//A reference code of template creation through face detction and validation./////
 #include<algorithm>
 #include<torch/torch.h>
 #include<torch/script.h>

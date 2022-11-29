@@ -24,7 +24,9 @@ using namespace std;
 using namespace cv;
 
 
-CascadeClassifier cascade;
+int main(int argc, const char* argv[])
+{    
+    CascadeClassifier cascade;
     cascade.load("D:\\Software\\opencv\\sources\\data\\haarcascades\\haarcascade_frontalface_default.xml");
     //std::cout << "load detection model successfully \n";
     std::string inputName = "sample image";
@@ -142,3 +144,4 @@ CascadeClassifier cascade;
 
    }
 
+}

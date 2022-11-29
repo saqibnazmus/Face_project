@@ -1,4 +1,4 @@
-//A reference code of template creation through face detction and validation./////
+//A reference code of template creation through face detction, recognition, and validation./////
 #include<algorithm>
 #include<torch/torch.h>
 #include<torch/script.h>

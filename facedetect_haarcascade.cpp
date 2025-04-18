@@ -14,6 +14,10 @@
 #include<algorithm>
 #include<numeric>
 
+#include "face_detection.h"
+#include <opencv2/opencv.hpp>
+#include <torch/script.h>
+#include <iostream>
 
 
 #define SUCCESS 0
